@@ -4,6 +4,8 @@ An interactive Streamlit dashboard for exploring a loan book dataset and an
 interpretable credit-risk model (logistic regression with WoE/IV binning),
 built for the FNB DataQuest 2026 challenge.
 
+**🔗 Live demo:** [fnb-dataquest-credit-risk-2026.streamlit.app](https://fnb-dataquest-credit-risk-2026-nzk8mpoezxhocqrj97uxcy.streamlit.app/)
+
 ## Project structure
 
 ```
@@ -17,8 +19,8 @@ built for the FNB DataQuest 2026 challenge.
 ## Setup
 
 ```bash
-git clone https://github.com/Xola1917/fnb-dataquest-credit-risk.git
-cd fnb-dataquest-credit-risk
+git clone https://github.com/Xola1917/FNB-DataQuest-Credit-Risk-2026.git
+cd FNB-DataQuest-Credit-Risk-2026
 python -m venv .venv
 source .venv/bin/activate      # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
