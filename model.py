@@ -315,7 +315,7 @@ plt.title(f'ROC Curve -- Final Calibrated Credit Model\n'
 plt.legend(fontsize=10)
 plt.tight_layout()
 plt.savefig('roc_curve_final.png', dpi=150)
-plt.show()
+plt.close()
 print("\nFinal ROC curve saved as roc_curve_final.png")
 
 # ══════════════════════════════════════════════
